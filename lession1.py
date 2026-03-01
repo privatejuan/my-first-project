@@ -35,8 +35,13 @@ print(f"Savings Percentage: {savings:.2f}%")
 name = input("What is your name? ")
 age = int(input("What is your age? "))
 
-print(f"Hello {name}")
-print(f"Are you really {age} ?")
+print(f"\nHello {name}")
+print(f"You are {age} years old.")
 
-confirm = input("Type YES to confirm: ")
-print(f"Overview: Name: {name}, Age: {age}")
+confirm = input("Is this correct? (yes/no): ")
+
+if confirm.lower() == "yes":
+    print(f"\nOverview: Name: {name}, Age: {age}")
+
+else:
+    print("Please restart the program and enter correct details.")
