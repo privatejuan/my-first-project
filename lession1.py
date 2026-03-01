@@ -30,17 +30,13 @@ savings = (spending / fortnightly_income) * 100
 print(f"Savings Percentage: {savings:.2f}%")
 
 
+# Inputs
 
+name = input("What is your name? ")
+age = int(input("What is your age? "))
 
+print(f"Hello {name}")
+print(f"Are you really {age} ?")
 
-
-
-
-
-
-
-
-
-
-
-
+confirm = input("Type YES to confirm: ")
+print(f"Overview: Name: {name}, Age: {age}")
