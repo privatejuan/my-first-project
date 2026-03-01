@@ -1,2 +1,4 @@
 This is my first Git project.
 I am learning version control.
+
+Git is actually not that scary...ok maybe it is.
